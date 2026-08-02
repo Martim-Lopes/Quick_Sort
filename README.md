@@ -1,44 +1,44 @@
-# Quick_Sort
+# Quick Sort
 
-Implementação do algoritmo de ordenação **Quick Sort** em Java, com atenção a diferentes estratégias de pivot e análise de complexidade.
+Implementation of the **Quick Sort** algorithm in Java, with a focus on pivot strategies and time complexity analysis.
 
-## Objetivo
+## Purpose
 
-Implementar e analisar o desempenho do Quick Sort, compreendendo as suas vantagens, desvantagens e comportamentos em diferentes cenários.
+To implement and analyze the performance of Quick Sort, understanding its average and worst-case behavior under different scenarios.
 
-## Funcionalidades
+## Features
 
-- Implementação do Quick Sort
-- Possíveis variações (se aplicável no teu código):
-  - Escolha de pivot (primeiro, último, aleatório, mediana de três)
-  - Contagem de comparações/trocas para análise empírica
-- Testes com diferentes tipos de arrays:
-  - Aleatórios
-  - Já ordenados
-  - Ordenados inversamente
+- Quick Sort implementation in Java
+- Possible variations (if implemented):
+  - Different pivot selection strategies (first, last, random, median-of-three)
+  - Counting comparisons or swaps for empirical analysis
+- Tests with different types of arrays:
+  - Random arrays
+  - Already sorted arrays
+  - Reverse-sorted arrays
 
-## Tecnologias
+## Technologies
 
-- Linguagem: Java
-- Ferramentas: IntelliJ IDEA (ou outra IDE Java), Git, GitHub
+- Language: Java
+- Tools: IntelliJ IDEA (or any Java IDE), Git, GitHub
 
-## Como executar
+## How to Run
 
-1. Garante que tens o **Java 17** (ou versão compatível) instalado.
-2. Clona o repositório:
+1. Make sure you have **Java 17** (or a compatible version) installed.
+2. Clone the repository:
    ```bash
    git clone https://github.com/Martim-Lopes/Quick_Sort.git
    cd Quick_Sort
    ```
-3. Abre o projeto na tua IDE ou compila via terminal:
+3. Open the project in your IDE or compile via terminal:
    ```bash
-   javac src/...  # ajusta ao teu package
-   java ...       # classe principal
+   javac src/...  # adjust to your package
+   java ...       # main class
    ```
-4. Executa a classe `main` para ver o algoritmo em ação e, se aplicável, as métricas de desempenho.
+4. Run the `main` class to see the algorithm in action and, if available, the performance metrics.
 
-## O que aprendi
+## What I Learned
 
-- Funcionamento interno do Quick Sort e sua complexidade média/pior caso
-- Importância da escolha do pivot no desempenho
-- Como realizar análise empírica de algoritmos em Java
+- How Quick Sort works internally and how its complexity behaves
+- The impact of pivot selection on performance
+- How to perform empirical analysis of algorithms in Java
